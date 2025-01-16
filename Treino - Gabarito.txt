@@ -7,32 +7,30 @@ ADICIONAR E SALVAR
 - git add .
 - git commit -m " xxx "
 
-REMOVER:
-- 
-- 
-
 HISTÓRICO DE COMMITS:
-- git log --oneline
+- git log --oneline ( N )
 - git log --stat
+- git diff  
 
-ALTERAR MENSAGEM DE COMMIT:
+18. ALTERAR MENSAGEM DE COMMIT:
 - git commit --amend -m " xxx "
+- git commit --amend --no-edit      > Quando Commitar um arquivo e esquecer de outro <
 
-EDITOR DE TEXTO PADRÃO:
+19. EDITOR DE TEXTO PADRÃO:
 - code .
 
-VERSÃO ANTERIOR DO ARQUIVO: 
-- git checkout 
-- 
+20. COMMITS ANTERIORES: 
+- git checkout ( Número do Commit )    > Escolher Arquivo <
+- git checkout master                  > Voltar para o Master <
+- git checkout ( nome do arquivo.txt ) > Última Versão <
+- git checkout .                       > Remove já adicionados, porém Modificados <
 
-VERSÃO DO ÚLTIMO COMMIT:
-- git checkout ( nome do arquivo.txt )
+22. REMOVER NÃO ADICIONADO:
+ - git clean -f
+ 
+- git reset --hard                    > Ignorar tudo, desde o último commit  <
 
-REMOVER ARQUIVOS :
-NÃO RASTREADOS - git clean -f
-RASTREADOS / MODIFICADO / PREPARADO - 
-
-REMOVER ADICIONADOS:
+REMOVER ADICIONADOS NÃO COMITADO:
 - git rm --cached  ( nome do arquiivo.txt )
 - git rm --cached -r .
 
@@ -41,4 +39,4 @@ CRIAR PASTA DE IGNORAR ARQUIVOS
 
 PARAR DE RASTREAR UM ARQUIVO:
 - git update.index --skip-
-- git update,index --no-skip-
+- git update.index --no-skip-

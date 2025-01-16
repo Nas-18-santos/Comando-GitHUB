@@ -16,7 +16,9 @@ Removendo mais de um arquivo: git rm --cached -r .
 Salvar/comitar arquivo no Git: git commit -m " (titulo)  "
 
 
-( git diff )
+( git diff ) visualizar alterações
+ 
+( git diff ==cached) visualizar alterações preparando x salvo 
 
 Histórico de Commits : git log 
 Variações : 
