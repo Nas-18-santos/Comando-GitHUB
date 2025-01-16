@@ -37,6 +37,6 @@ REMOVER ADICIONADOS NÃO COMITADO:
 23. CRIAR PASTA DE IGNORAR ARQUIVOS
 - touch .gitignore                     > *.( Colocar na Pasta Arquivos para Ignorar ) <
 
-PARAR DE RASTREAR UM ARQUIVO:
-- git update.index --skip-
-- git update.index --no-skip-
+24. PARAR DE RASTREAR UM ARQUIVO:
+- git update-index --skip-worktree ( nome do arquivo )
+- git update-index --no-skip-worktree ( nome do arquivo )
