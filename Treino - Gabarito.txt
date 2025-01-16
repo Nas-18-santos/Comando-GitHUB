@@ -34,8 +34,8 @@ REMOVER ADICIONADOS NÃO COMITADO:
 - git rm --cached  ( nome do arquiivo.txt )
 - git rm --cached -r .
 
-CRIAR PASTA DE IGNORAR ARQUIVOS
-- touch .ignore
+23. CRIAR PASTA DE IGNORAR ARQUIVOS
+- touch .gitignore
 
 PARAR DE RASTREAR UM ARQUIVO:
 - git update.index --skip-
