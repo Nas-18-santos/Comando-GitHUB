@@ -1,0 +1,44 @@
+CONFIGURAR:
+- git config --global user.name " xxx "
+- git config --global user.email " xxx "
+
+ADICIONAR E SALVAR
+- git add
+- git add .
+- git commit -m " xxx "
+
+REMOVER:
+- 
+- 
+
+HISTÓRICO DE COMMITS:
+- git log --oneline
+- git log --stat
+
+ALTERAR MENSAGEM DE COMMIT:
+- git commit --amend -m " xxx "
+
+EDITOR DE TEXTO PADRÃO:
+- code .
+
+VERSÃO ANTERIOR DO ARQUIVO: 
+- git checkout 
+- 
+
+VERSÃO DO ÚLTIMO COMMIT:
+- git checkout ( nome do arquivo.txt )
+
+REMOVER ARQUIVOS :
+NÃO RASTREADOS - git clean -f
+RASTREADOS / MODIFICADO / PREPARADO - 
+
+REMOVER ADICIONADOS:
+- git rm --cached  ( nome do arquiivo.txt )
+- git rm --cached -r .
+
+CRIAR PASTA DE IGNORAR ARQUIVOS
+- touch .ignore
+
+PARAR DE RASTREAR UM ARQUIVO:
+- git update.index --skip-
+- git update,index --no-skip-

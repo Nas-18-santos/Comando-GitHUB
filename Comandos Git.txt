@@ -1,0 +1,43 @@
+Configurar GIT no Prompt: git config --global user.name/email " xxxx " 
+
+
+Git adicionar um arquivo: git add ( nome do arquivo )
+
+Git adicionar mais de um arquivo: git add -all 
+
+( git status )
+
+
+Removendo um arquivo adicionados: git rm --cached ( nome do arquivo ) 
+
+Removendo mais de um arquivo: git rm --cached -r .
+
+
+Salvar/comitar arquivo no Git: git commit -m " (titulo)  "
+
+
+( git diff )
+
+Histórico de Commits : git log 
+Variações : 
+
+git log --oneline               > ( simplificar )
+git log --oneline -1           > ( simplifivar um commit )
+git log --stat                 > ( verificar arquivos modificados )
+
+
+alterando mensagem de commit : git commit --amend -m "   "
+
+
+:wq     > (salvar e sair)
+
+Editor de texto padrão : git config --global core.editor "code --wait" 
+
+giit commit --amend
+
+code .
+
+
+Ver a versão antiga do arquivo : git checkout ( shift + insert = copia e cola ) 
+
+Voltar : git checkout master 
