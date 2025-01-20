@@ -1,0 +1,42 @@
+CONFIGURAR:
+- git config --global user.name " xxx "
+- git config --global user.email " xxx "
+
+ADICIONAR E SALVAR
+- git add
+- git add .
+- git commit -m " xxx "
+
+HISTÓRICO DE COMMITS:
+- git log --oneline ( N )
+- git log --stat
+- git diff  
+
+18. ALTERAR MENSAGEM DE COMMIT:
+- git commit --amend -m " xxx "
+- git commit --amend --no-edit      > Quando Commitar um arquivo e esquecer de outro <
+
+19. EDITOR DE TEXTO PADRÃO:
+- code .
+
+20. COMMITS ANTERIORES: 
+- git checkout ( Número do Commit )    > Escolher Arquivo <
+- git checkout master                  > Voltar para o Master <
+- git checkout ( nome do arquivo.txt ) > Última Versão <
+- git checkout .                       > Remove já adicionados, porém Modificados <
+
+22. REMOVER NÃO ADICIONADO:
+ - git clean -f
+ 
+- git reset --hard                    > Ignorar tudo, desde o último commit  <
+
+REMOVER ADICIONADOS NÃO COMITADO:
+- git rm --cached  ( nome do arquiivo.txt )
+- git rm --cached -r .
+
+23. CRIAR PASTA DE IGNORAR ARQUIVOS
+- touch .gitignore                     > *.( Colocar na Pasta Arquivos para Ignorar ) <
+
+24. PARAR DE RASTREAR UM ARQUIVO:
+- git update-index --skip-worktree ( nome do arquivo )
+- git update-index --no-skip-worktree ( nome do arquivo )
